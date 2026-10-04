@@ -453,10 +453,11 @@ html:not([data-theme="dark"]) .mobile-nav-drawer .brand-logo-img.logo-dark {
 .hero-section {
   position: relative;
   min-height: 100vh;
+  min-height: 100svh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 8rem 0 5rem;
+  padding: 6.5rem 0 5rem;
   overflow: hidden;
   background-color: #0b0a09;
 }
@@ -566,48 +567,6 @@ html:not([data-theme="dark"]) .mobile-nav-drawer .brand-logo-img.logo-dark {
 .hero-buttons .btn-outline:hover {
   border-color: var(--color-gold);
   color: var(--color-gold);
-}
-
-/* Hero Feature Ribbons */
-.hero-ribbon-bar {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 4;
-  background: rgba(19, 18, 16, 0.88);
-  backdrop-filter: blur(12px);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 1.25rem 0;
-}
-
-.ribbon-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
-  text-align: center;
-}
-
-.ribbon-item {
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 0 1rem;
-}
-
-.ribbon-item:last-child {
-  border-right: none;
-}
-
-.ribbon-title {
-  font-family: var(--font-serif);
-  color: #d4af37;
-  font-size: 1.05rem;
-  margin-bottom: 2px;
-}
-
-.ribbon-sub {
-  font-size: 0.78rem;
-  color: #d5cec5;
-  letter-spacing: 0.05em;
 }
 
 /* ==========================================================================
@@ -1433,15 +1392,6 @@ html:not([data-theme="dark"]) .mobile-nav-drawer .brand-logo-img.logo-dark {
   .footer-top {
     grid-template-columns: 1fr 1fr;
   }
-
-  .ribbon-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-  }
-
-  .ribbon-item:nth-child(2) {
-    border-right: none;
-  }
 }
 
 @media (max-width: 768px) {
@@ -1455,26 +1405,9 @@ html:not([data-theme="dark"]) .mobile-nav-drawer .brand-logo-img.logo-dark {
   }
 
   .hero-section {
-    padding: 7rem 0 3.5rem;
-  }
-
-  .hero-ribbon-bar {
-    position: relative;
-    margin-top: 3rem;
-  }
-
-  .ribbon-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .ribbon-item {
-    border-right: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    padding-bottom: 0.75rem;
-  }
-
-  .ribbon-item:last-child {
-    border-bottom: none;
+    min-height: 100vh;
+    min-height: 100svh;
+    padding: 6rem 0 4rem;
   }
 
   .culinary-grid,
