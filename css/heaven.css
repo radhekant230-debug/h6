@@ -457,7 +457,7 @@ html:not([data-theme="dark"]) .mobile-nav-drawer .brand-logo-img.logo-dark {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6.5rem 0 5rem;
+  padding: 5rem 0;
   overflow: hidden;
   background-color: #0b0a09;
 }
@@ -504,31 +504,6 @@ html:not([data-theme="dark"]) .mobile-nav-drawer .brand-logo-img.logo-dark {
   margin: 0 auto;
 }
 
-.hero-pill-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 0.45rem 1.25rem;
-  background: rgba(212, 175, 55, 0.16);
-  border: 1px solid rgba(212, 175, 55, 0.35);
-  border-radius: var(--radius-pill);
-  font-size: 0.78rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: #fff2c6;
-  margin-bottom: 1.75rem;
-  backdrop-filter: blur(10px);
-}
-
-.hero-pill-badge span {
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #d4af37;
-  box-shadow: 0 0 10px #d4af37;
-}
-
 .hero-title {
   font-family: var(--font-serif);
   font-size: clamp(2.8rem, 6.5vw, 5.25rem);
@@ -536,6 +511,7 @@ html:not([data-theme="dark"]) .mobile-nav-drawer .brand-logo-img.logo-dark {
   line-height: 1.06;
   letter-spacing: 0.04em;
   color: #ffffff;
+  margin-top: 0;
   margin-bottom: 1.25rem;
   text-transform: uppercase;
   text-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
@@ -1407,7 +1383,7 @@ html:not([data-theme="dark"]) .mobile-nav-drawer .brand-logo-img.logo-dark {
   .hero-section {
     min-height: 100vh;
     min-height: 100svh;
-    padding: 6rem 0 4rem;
+    padding: 5rem 0 3.5rem;
   }
 
   .culinary-grid,
